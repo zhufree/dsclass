@@ -1,4 +1,4 @@
-package dsclass.ch06;
+package dsclass;
 /**
  * 第六次作业：创建有向图的邻接表存储结构
  * 增加createDG()和display()方法
@@ -6,7 +6,7 @@ package dsclass.ch06;
  * 2015.6.1
  */
 import java.util.Scanner;
-
+import dsclass.ch06.*;
 //图的邻接表存储表示
 public class ALGraph implements IGraph {
 	private GraphKind kind;// 图的种类标志

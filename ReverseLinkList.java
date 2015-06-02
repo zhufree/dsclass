@@ -1,5 +1,10 @@
 package dsclass;
 import dsclass.ch02.LinkList;
+/**
+ * 第二次作业：单链表逆置
+ * @author:Free
+ * 2015.5.29
+ */
 import dsclass.ch02.Node;
 public class ReverseLinkList {
 	void reservelist(LinkList ll) throws Exception{

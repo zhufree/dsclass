@@ -1,7 +1,12 @@
 package dsclass;
-
+/**
+ * 第三次作业：检测回文序列
+ * 第一个方法直接读取字符串，用到了String类
+ * 第二个方法直接读取单个字符
+ * @author:Free
+ * 2015.6.1
+ */
 import java.util.Scanner;
-
 import dsclass.ch03.LinkStack;
 
 public class ReverWords {
@@ -44,6 +49,7 @@ public class ReverWords {
 		LinkStack ls1=new LinkStack();
 		LinkStack ls2=new LinkStack();
 		LinkStack ls3=new LinkStack();
+		System.out.println("请输入字符用空格分开，任意数字结尾。");
 		Scanner scan=new Scanner(System.in);
 		while(true){
 			if(!scan.hasNextInt()){
@@ -54,6 +60,7 @@ public class ReverWords {
 				break;
 			}
 		}
+		scan.close();
 		int len=ls1.length();
 		for(int i=0;i<len;i++){
 			ls3.push(ls1.pop());

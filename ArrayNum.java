@@ -1,6 +1,9 @@
 package dsclass;
-/*
- * 找出一个数组中最大的数*/
+/**
+ * 第一次作业：找出一个数组中最大的数
+ * @author:Free
+ * 2015.5.29
+ */
 import java.util.Random;
 
 public class ArrayNum {

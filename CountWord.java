@@ -1,6 +1,11 @@
 package dsclass;
-/*对一段文本中的单词进行切分，排序，统计出现次数
- * 并储存在十字链表中*/
+/**
+ * 第四次作业：对20段文本中的单词进行切分，排序，统计出现次数
+ * 并储存在十字链表中
+ * 竖列是文档编号，横列为单词的序列，值是单词出现的字数，以两段文档为例
+ * @author Free
+ * 2015.6.1
+ * */
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
